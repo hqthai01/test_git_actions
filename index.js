@@ -6,5 +6,4 @@ function robotSays(message = '') {
 
     return `${robot} ${message}`
 }
-
 module.exports.robotSays = robotSays
