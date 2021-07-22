@@ -1,4 +1,5 @@
 const { robotSays } = require('./')
+
 test('robot knows what to says', () => {
     expect(robotSays('wow!!!')).toBe('[o.o] wow!!!')
 })
